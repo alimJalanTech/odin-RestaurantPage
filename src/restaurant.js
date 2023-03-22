@@ -5,7 +5,7 @@ const createRestaurantHomePage = () => {
 
   //Adding the image
   const image = document.createElement("img");
-  image.src = "../img/beans.jpg";
+  image.src = "../dist/beans.jpg";
   image.classList.add("wallpaper");
   pageContent.appendChild(image);
 
