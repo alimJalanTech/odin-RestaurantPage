@@ -13,11 +13,11 @@ img {
 }
 
 .tab {
-  padding: 10px;
+  color: #333;
   font-size: 1.2rem;
   font-weight: bold;
+  padding: 10px;
   text-align: center;
-  color: #333;
 }
 
 .tab:hover {
@@ -37,38 +37,38 @@ img {
 }
 
 .page-content {
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 20px;
-  align-items: center;
-  background-color: #f9f9f9;
   padding: 20px;
-  border-radius: 5px;
 }
 
 .contact-form {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   gap: 10px;
+  justify-content: center;
 }
 
 .main-page {
-  display: flex;
-  justify-content: center;
   align-items: center;
+  display: flex;
   height: 100vh;
+  justify-content: center;
 }
 
 .contact-form input,
 .contact-form button {
-  padding: 10px;
+  background-color: #f2f2f2;
   border-radius: 5px;
   border: none;
   outline: none;
-  background-color: #f2f2f2;
+  padding: 10px;
 }
 
 .contact-form button {
@@ -78,22 +78,17 @@ img {
 }
 
 h1 {
-    font-size: 2em;
-    margin-bottom: 10px;
-  }
-  
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  li {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-  }
-  
-  li:before {
-    content: "•"; 
-    margin-right: 5px;
-  }
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
